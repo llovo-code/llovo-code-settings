@@ -1,0 +1,100 @@
+{
+  "workbench.colorTheme": "Omni Owl",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "terminal.integrated.fontFamily": "Hack Nerd Font Mono",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "Pswh": {
+      "path": "C:\\Users\\lewin\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe",
+      "source": "Windows.Terminal.PowershellCore"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+  "editor.autoClosingBrackets": "always",
+  "editor.autoClosingComments": "always",
+  "editor.autoClosingQuotes": "always",
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "symbols.hidesExplorerArrows": true,
+  "liveServer.settings.AdvanceCustomBrowserCmdLine": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe",
+  // Using the light mode
+  "indentRainbow.indicatorStyle": "light",
+  // we use a simple 1 pixel wide line
+  "indentRainbow.lightIndicatorStyleLineWidth": 1,
+  // the same colors as above but more visible
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  "indentRainbow.ignoreErrorLanguages": ["*"],
+  "indentRainbow.colorOnWhiteSpaceOnly": true,
+  "better-comments.highlightPlainText": true,
+  "terminal.integrated.env.windows": {},
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "material-icon-theme.activeIconPack": "react",
+  "editor.wordWrap": "on",
+  "console-ninja.featureSet": "Community",
+  "editor.fontFamily": "Hack Nerd Font Mono",
+  "emmet.includeLanguages": {
+    "astro": "html"
+  },
+  "[jsonc]": {
+    // "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    // "editor.defaultFormatter":"vscode.json-language-features"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "prettier.tabWidth": 2,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  //miduconfigurations
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.fontLigatures": true,
+  "editor.guides.bracketPairs": true,
+  "editor.guides.indentation": true,
+  "editor.guides.highlightActiveBracketPair": true,
+  "editor.inlayHints.enabled": "on",
+  "editor.stickyScroll.enabled": true,
+  "github.copilot.editor.enableAutoCompletions": true,
+  "javascript.inlayHints.enumMemberValues.enabled": true,
+  "scm.experimental.showHistoryGraph": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.tree.enableStickyScroll": true,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.customLabels.patterns": {
+    "**/[T|t]Types/**": "${filename}.${extname} - Types",
+    "**/[C|c]omponents/**": "${filename}.${extname} - Component",
+    "**/[C|c]ontrollers/**": "${filename}.${extname} - Controller",
+    "**/[I|i]con/**": "${filename}.${extname} - Icon",
+    "**/[P|p]ages/**": "${filename}.${extname} - Page",
+    "**/[D|d]atabased/**": "${filename}.${extname} - Db",
+    "**/[L|l]ayout/**": "${filename}.${extname} - Layout",
+    "**/[P|p]ublic/**": "${filename}.${extname} - Public"
+  }
+}
