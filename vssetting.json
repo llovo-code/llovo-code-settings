@@ -95,6 +95,7 @@
     "**/[P|p]ages/**": "${filename}.${extname} - Page",
     "**/[D|d]atabased/**": "${filename}.${extname} - Db",
     "**/[L|l]ayout/**": "${filename}.${extname} - Layout",
-    "**/[P|p]ublic/**": "${filename}.${extname} - Public"
+    "**/[P|p]ublic/**": "${filename}.${extname} - Public",
+    "**/[I|i]nterfaces/**": "${filename}.${extname} - Public"
   }
 }
